@@ -1,0 +1,56 @@
+Minutes of Meet with Ashish Goel
+
+QM testing - Much more testings need to be done than required for the checking corresponding to Flight model
+University of Surrey - 2D HILS
+Pratham has wasted a lot of time in doing simulations than required. Wherever we could do actual testings directly and accurately, then we do not need simulations go ahead with actual testings. This makes the proccess simpler and faster. How to decide when to go for simulations and when to go for hands on actual testings ?? - Depends on the facilities available in the institute. Antenna decision for eg could have been taken by fabricating one and using network analyser etc directly rather than using simulations. A little bit of intuition and experience would make the actual analysis faster.
+Some things are going to remain the same irrespective of the Payload for various subsystems as those in Pratham. Start studying them while Payload is studied upon.
+Searching of Payload:
+Google searching wont be enough. Institutes that we can interact with: IITB, IIG, Ramakrishnan Institute Bangalore, Ramgopal Rao sir, Saumyo Mukherjee etc - to validate any concept pertaining to the payload.
+Till the time satellite bus is not reliable, a complex Payload cannot be chosen. Thus, payload needs to be as simple as possible with minimum requirements on other subsystems. While, the team should work on improving the reliability of the bus. Payload like testing a sensor etc can be done.
+Initially while deciding Payload for Pratham, stucke between 2 payloads: TEC and Thermal Camera using thermopile sensors but Thermal Camera is complex to achieve thus had to be ditched after reviews with professors as there was uncertainities in our Controls and Communications etc
+Contact with Varun sir: Sir has very good contacts with whom we can contact to get a payload from them directly. Decide areas of interest where we are good to go ahead with Payload and contact corresponding profs for the payload. Tech demonstration can be kept as payload as well as solar panel deployment and so on.
+There are big list of possibilities in payload, list them down and decide with deletion with feasibility tests.
+Keep in mind simplicity factor.
+Some good examples: Keeping 4 types of memory inside and outside the bus and checking region-wise bit flips. Developing solar panels, IR camera.
+Imaging payload - Heavy demands
+Astronomical payload - Lesser demands
+Expt to demonstrate that a particular thing can survive like keeping a particular material on side panels for testings.
+Some profs have astro-physics background they might give payload, check their webpage.
+Many unsuccessful satellites can be considered for payload after proper studying.
+Points to consider while considering payload:
+1. Make and estimate of requirements along with what objective can be achieved along with it.
+2. Cost will be an important factor.
+Stay put to your payload once selected and the complete subsystem should work completely on this.
+Plan suggested:
+List of all possible ideas
+Reason to discard/select ideas
+Presentation of Payload ideas
+Get updates from people
+Meet per week atleast
+
+Not path breaking payload required, but a necessary payload is required as well.
+Contact Prof. Hablani for more guidance
+
+Any imaging payload has high strains but is very good for PR point of view.
+For constellation: our satellite should be a standalone system and not depend on satellites that we expect of other institutes.
+
+Quality Team:
+Earlier was there but created a lot of drama earlier. Work was to ensure all requirements are met. Responsible for environment testing. Let Varun sir define the team. Take 2-3 ppl and make a quality team out of them.
+
+TRY TO USE AS MUCH AS POSSIBLE FROM PRATHAM INCLUDING HARDWARE AND OLD DOCUMENTS.
+During the phase of Payload decision earlier, there used to be meets everyday and met profs 2-3 times atleast. Involved in prototyping also.
+
+ADVICE: Make a clear schedule. Study enough for analysis to generate requirements. Make use of scaling logs wherever possible for easier getting of numbers. Intuitive calculations enough to decide numbers for requirement. Be content with the fact that payload may not be the best, but - A BAD EARLY DECISION IS BETTER THAN GOOD LATE DECISION.
+Dont make many changes from the exisiting bus. Keep these changes to minimum.
+Build a setup to validate magnetorquers. Improve Uplink Architecture.
+There exists a tradeoff between buying the off the shelf materials compared to making it on our own. Innovating on our own multiplies with the risk. Buying things and testing also involves plenty of learning as well.
+
+Github - CAD, software files, circuit and code files.
+An overall CAD can be under one person's responsibility
+Ensure coding convention
+File format suggested: YYYYMMDD_NameOfPerson_WhatIt Contains
+
+Regarding meetings: Hierarchial meetings.
+Present to payload leader who can summarise ideas and present it to other teams. Dont waste time on keeping multiple meets. Strike the balance between meets and work time.
+
+Vision: Satellite should work for stipulated mission time. High reliability and performance should be achieved and aim for standardising the satellite bus.
